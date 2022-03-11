@@ -143,6 +143,7 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
+    document.getElementById('definition-box').textContent='';
     const liked = document.getElementById( "liked" );
     liked.textContent='';
     const likedPosts = getLikedPosts();
@@ -153,6 +154,7 @@ const displayLikedPosts = () => {
 };
 
 const displayReportedPosts = () => {
+  document.getElementById('definition-box').textContent='';
     const reported = document.getElementById("reported");
     reported.textContent = '';
     const reportedPosts = getReportedPosts();
