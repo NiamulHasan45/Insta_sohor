@@ -154,7 +154,6 @@ const displayLikedPosts = () => {
 };
 
 const displayReportedPosts = () => {
-  document.getElementById('definition-box').textContent='';
     const reported = document.getElementById("reported");
     reported.textContent = '';
     const reportedPosts = getReportedPosts();
