@@ -143,7 +143,6 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
-    document.getElementById('definition-box').textContent='';
     const liked = document.getElementById( "liked" );
     liked.textContent='';
     const likedPosts = getLikedPosts();
